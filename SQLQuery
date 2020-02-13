@@ -1,0 +1,3 @@
+テーブル作成クエリ: CREATE TABLE orderrecords (id int NOT NULL IDENTITY(1,1) PRIMARY KEY, productName VARCHAR(50), priceUSD float(53), priceJPY float(53));
+商品追加クエリ: INSERT INTO orderrecords (productName, priceUSD) VALUES ('Contoso Pizza', 100);
+テーブル参照: SELECT * FROM orderrecords;
